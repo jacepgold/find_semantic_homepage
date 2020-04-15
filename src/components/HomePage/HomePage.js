@@ -1,5 +1,12 @@
 import React from 'react';
-import { Container, Menu, Image, Dropdown, Divider, } from 'semantic-ui-react';
+import {
+  Container,
+  Menu,
+  Image,
+  Dropdown,
+  Divider,
+  Header,
+} from 'semantic-ui-react';
 
 const HomePage = () => (
   <div>
@@ -31,6 +38,11 @@ const HomePage = () => (
         </Dropdown>
       </Container>
     </Menu>
+
+    <Container text style={{ marginTop: '7em' }}>
+      <Header as='h1'>Jace's Website</Header>
+      <p></p>
+    </Container>
   </div>
 );
 
