@@ -9,7 +9,6 @@ import {
   Segment,
   Grid,
   List,
-
 } from 'semantic-ui-react';
 
 const HomePage = () => (
@@ -60,10 +59,15 @@ const HomePage = () => (
       </p>
 
       <Image src='https://react.semantic-ui.com/images/wireframe/media-paragraph.png' style={{ marginTop: '2em' }} />
+      <br />
       <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' style={{ martinTop: '2em' }} />
+      <br />
       <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' style={{ martinTop: '2em' }} />
+      <br />
       <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' style={{ martinTop: '2em' }} />
+      <br />
       <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' style={{ martinTop: '2em' }} />
+      <br />
       <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' style={{ martinTop: '2em' }} />
       <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' style={{ martinTop: '2em' }} />
     </Container>
@@ -106,6 +110,24 @@ const HomePage = () => (
             </p>
           </Grid.Column>
         </Grid>
+
+        <Divider inverted section />
+
+        <Image centered size='mini' src='https://react.semantic-ui.com/logo.png' />
+        <List horizontal inverted divided link size='small'>
+          <List.Item as='a' href='#'>
+            Site Map
+          </List.Item>
+          <List.Item as='a' href='#'>
+            Contact Us
+          </List.Item>
+          <List.Item as='a' href='#'>
+            Terms and Conditions
+          </List.Item>
+          <List.Item as='a' href='#'>
+            Privacy Policy
+          </List.Item>
+        </List>
       </Container>
     </Segment>
   </div>
