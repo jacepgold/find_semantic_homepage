@@ -11,9 +11,11 @@ const Header = () => (
     <Container>
       <Menu.Item as='a' header>
         <Image size='mini' src='https://react.semantic-ui.com/logo.png' style={{ marginRight: '1.5em' }} />
-          Jace Gold
-        </Menu.Item>
-      <Menu.Item as='a'>Home</Menu.Item>
+        Jace Gold
+      </Menu.Item>
+      <Menu.Item as='a'>
+        Home
+      </Menu.Item>
 
       <Dropdown item simple text='Dropdown'>
         <Dropdown.Menu>
