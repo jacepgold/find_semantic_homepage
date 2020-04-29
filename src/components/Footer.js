@@ -8,6 +8,7 @@ import {
   Divider,
   Image,
 } from 'semantic-ui-react';
+import { Link, } from 'react-router-dom';
 
 const Footer = () => (
   <Segment inverted vertical style={{ marginTop: '7em' }}>
@@ -16,9 +17,21 @@ const Footer = () => (
         <Grid.Column width={3}>
           <Header inverted as='h4' content='Group 1' />
           <List link inverted>
-            <List.Item as='a'>Link One</List.Item>
-            <List.Item as='a'>Link Two</List.Item>
-            <List.Item as='a'>Link Three</List.Item>
+            <List.Item as='a'>
+              <Link to='/'>
+                Home
+              </Link>
+            </List.Item>
+            <List.Item as='a'>
+              <Link to='/about'>
+                About
+              </Link>
+            </List.Item>
+            <List.Item as='a'>
+              <Link to='/gallery'>
+                Gallery
+              </Link>
+            </List.Item>
             <List.Item as='a'>Link Four</List.Item>
           </List>
         </Grid.Column>
