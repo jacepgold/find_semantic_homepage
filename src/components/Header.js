@@ -32,6 +32,11 @@ const Header = () => (
           Gallery
         </Link>
       </Menu.Item>
+      <Menu.Item>
+        <Link to='/contact'>
+          Contact
+        </Link>
+      </Menu.Item>
     </Container>
   </Menu>
 );

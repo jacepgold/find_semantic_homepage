@@ -17,6 +17,7 @@ import Footer from './components/Footer';
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import GalleryPage from './components/GalleryPage';
+import ContactPage from './components/ContactPage';
 import NotFound from './components/NotFound';
 
 ReactDOM.render(
@@ -27,6 +28,7 @@ ReactDOM.render(
         <Route exact path='/' component={ HomePage } />
         <Route exact path='/about' component={ AboutPage } />
         <Route exact path='/gallery' component={ GalleryPage } />
+        <Route exact path='/contact' component={ ContactPage } />
         <Route exact path='/404' component={ NotFound } />
 
         {/* Redirect as last resort for no path match found */}
